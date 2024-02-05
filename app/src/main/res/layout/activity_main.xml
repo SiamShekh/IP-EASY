@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ProgressBar
+        android:id="@+id/progress_circular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <LinearLayout
+        android:id="@+id/Layout"
+        android:visibility="gone"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IP: "
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="City: "
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/region"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Region: "
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/country"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Country: "
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location: "
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:id="@+id/org"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ORG: "
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/timeZone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time zone: "
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/postal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Postal: "
+            android:textSize="20dp" />
+    </LinearLayout>
+
+</LinearLayout>
